@@ -1,0 +1,64 @@
+@import "_variables";
+
+
+.topNav {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topNav a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.topNav a:not(:last-child) {
+    margin-right: 45px;
+}
+
+.breadcrumb {
+    margin: auto;
+    height: 148px;
+    padding-left:  229px;
+    background-color: $color;
+    padding-right: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newArrivals {
+    color: #f16d7f;
+    font-family: "Lato - Black";
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navCrumb{
+    color: #636363;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-family: "Lato Light";
+    font-weight: 300;
+
+    
+}
+
+.activNav {
+    font-family: "Lato - Bold";
+    font-weight: 700;
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,28 @@
+
+$base-color: #f16d7f;
+
+$color: #f8f3f4;
+
+
+$basefontcolor: #222222;
+
+@mixin flexible {
+	display: flex;
+	justify-content: space-between;
+}
+
+@mixin styleComby {
+	border: 1px solid #eaeaea;
+	background-color: #ffffff;
+	color: #4a4a4a;
+	font-family: Lato;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+@mixin flexcolumn {
+	display: flex;
+	flex-direction: column;
+}
+
+

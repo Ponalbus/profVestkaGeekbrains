@@ -1,0 +1,257 @@
+@import "_variables";
+@import "_style";
+@import "_hover";
+@import "_header";
+@import "_nav";
+@import "_footer";
+@import "_media";
+
+
+.lineDetails {
+	width: 1140px;
+	height: 1px;
+	border: 1px solid #eaeaea;
+	background-color: #000000;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+
+.blockDetails {
+    @include flexible;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    margin-top: 90px;
+	color: basefontcolor;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: -0.2px;
+}
+
+.productDetails {
+    display: flex;
+    float: left;
+    color: basefontcolor;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.blockProductImage {
+    display: flex;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.mangoSize {
+	padding-left: 21px;
+}
+
+.mangoT-shirt {
+	padding-bottom: 38px;
+    padding-top: 13px;
+	color: basefontcolor;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.colorSize {
+	color: #6f6e6e;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 20px;
+	/* Text style for "C, olor:," */
+	color: #575757;
+	font-family: "Lato - Regular";
+	font-weight: 400;
+	/* Text style for "Red ,   Xl" */
+	font-family: "Lato Light";
+	font-weight: 300;
+	/* Text style for "" */
+	font-family: "Lato - Regular";
+	font-weight: 400;
+}
+
+
+.blockProductPrice {
+	padding-top: 49px;
+    @include flexible;
+    padding-left: 149px;
+    padding-right: 31px;
+}
+
+.productPrice {
+	color: #656565;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.buttonShop {
+	margin-top: 43px;
+    @include flexible;
+}
+
+.clearCart {
+	width: 225px;
+	height: 50px;
+	@include styleComby;
+	font-size: 14px;
+	
+}
+
+.inputEditorPoduct {
+	width: 54px;
+	height: 30px;
+	border: 1px solid #eaeaea;
+	background-color: #ffffff;
+}
+ 
+
+
+
+.boxBy {
+    @include flexible;
+}
+
+.box_1 {
+	@include flexcolumn;
+}
+
+
+.shipAdress {
+	color: basefontcolor;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase; 
+	margin-top: 63px;
+}
+
+.inputEditorBy {
+	width: 355px;
+	height: 45px;
+	border: 1px solid #eaeaea;
+	background-color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.getQuote  {
+	width: 100px;
+	height: 35px;
+	font-size: 11px;
+	margin-top: 10px;
+	@include styleComby;
+}
+
+
+.box_2 {
+	@include flexcolumn;
+}
+
+.applyCoupon {
+	width: 118px;
+	height: 35px;
+	font-size: 11px;
+	margin-top: 10px;
+	@include styleComby;
+}
+
+
+.couponCode {
+	margin-top: 24px;
+	margin-bottom: 14px;
+	color: #000000;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+
+.box_3 {
+	@include flexcolumn;
+	margin-top: 63px;
+	width: 360px;
+	height: 214px;
+	background-color: #f5f3f3;
+	align-items: flex-end;
+}
+
+.sub {
+	width: 109px;
+	margin-top: 40px;
+	margin-bottom: 14px;
+	@include flexible;
+    margin-right: 43px;
+}
+
+.grand {
+	width: 165px;
+	@include flexible;
+    margin-right: 43px;
+}
+
+.grandTotal {
+	text-transform: uppercase;
+	color: basefontcolor;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.cashTotal {
+	text-transform: uppercase;
+	color: #f16d7f;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.line_box_3 {
+	margin-top: 22px;
+	margin-bottom: 17px;
+	width: 275px;
+	height: 1px;
+	background-color: #e2e2e2;
+	margin-right: 43px;
+}
+
+.proceedChekOut {
+	width: 273px;
+	height: 50px;
+	background-color: #f16d7f;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-right: 43px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
