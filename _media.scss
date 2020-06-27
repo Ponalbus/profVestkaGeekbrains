@@ -1,0 +1,109 @@
+   @media screen and (max-width: 770px) {
+   nav.topNav {
+			flex-direction: column;
+			text-align: center;
+			height: auto;
+			margin-bottom: 20px;
+			margin-top: 20px;
+			justify-content: none;
+		}
+
+	.topNav a:not(:last-child) {
+    	margin-right: 0px;
+    	padding-bottom: 20px;
+	}
+
+	.breadcrumb { 
+
+			flex-direction: column;
+		    justify-content: space-around;
+		    padding-left: 0px;
+		    width: auto;
+		    padding-right: 0px;
+ 	}
+ 	.header {
+ 	    flex-direction: column;
+    	width: auto;
+    	height: auto;
+    	align-items: baseline;
+    }
+    .headerCart {
+    	margin-right: 0px;
+    	margin-left: 0px;
+    	height: 40px;
+    	width: 40px;
+
+    }
+    .search input {
+    	width: 300px;
+
+    }
+    .cartButton {
+    	margin: auto;
+    	display: flex;
+    	align-items: stretch;
+    }
+    .accountBtn {
+    	margin-left: 20px;
+    }
+
+
+	.downFooter {
+	    flex-direction: column;
+	    justify-content: space-around;
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    width: auto;
+    }
+
+    .textHead {
+   		 padding-bottom: 5px;
+	}
+    .column {
+    	text-align: center;
+    }
+	.upperFooter {
+		flex-direction: column;
+	    align-items: center;
+	    margin-top: 0px;
+	    width: auto;
+	    height: auto;
+	}
+	.footer {   
+	    width: auto;
+	    height: auto;
+	}
+	.column1 {
+	    margin-left: 0px;
+	    margin-right: 0px;
+	}
+	.column2 {
+	    margin-left: 0px;
+	    margin-right: 0px;
+	}
+	.column3 {
+	    margin-left: 0px;
+	    margin-right: 0px;
+	}
+	.Subscribe {
+	    width: auto;
+   		height: 300px;
+   	}
+   	.leftBox {
+   		display: none;
+   	}
+   	.whiteLine {
+   		display: none;
+   	}
+   	.rightBox {
+   		margin: auto;
+   	}
+}
+
+
+
+
+
+
+
+
